@@ -1,101 +1,183 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scake=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daishi Nakagawa</title>
 </head>
-     <body>
+
+<body>
+
     <header>
         <nav>
             <a href="#profile">Profile</a>
-            <span></span>
+            <span>|</span>
             <a href="#skills">Skills</a>
-            <span></span>
+            <span>|</span>
             <a href="#education">Education</a>
-            <span></span>
-            <a href="aa">Award and Achivements</a>
-            <span></span>
+            <span>|</span>
+            <a href="#awards">Awards and Achievements</a>
+            <span>|</span>
             <a href="#contact">Contact</a>
-            <span></span>
+            <span>|</span>
         </nav>
     </header>
-        <main>
 
-            <section id="profile">
-                <img src = "https://media.licdn.com/dms/image/v2/D5603AQEN6_ebU1LQPw/profile-displayphoto-scale_200_200/B56Z7BB2nOKsAg-/0/1781354951187?e=2147483647&v=beta&t=rMBHonqK0GFENgH30vu5UEnPc-6WtRux8is_AXb9G8Q"/>
-                <h3>Personal Information</h3>
-                <p><strong>Name:</strong>Daishi R. Nakagawa</p>
-                <p><strong>Email:</strong>nakagawa2434967@mls.ceu.edu.ph</p>
-                <p><strong>Contact Number:</strong>09935862936</p>
-                <p>I am a Information Technology student From Ceu Malolos</p>
+    <main>
 
+        <section id="profile">
+            <h1>Daishi R. Nakagawa</h1>
 
-            <section id="skills"> 
-                <h2>Skills</h2>
-                <ul>
-                    <li>Time Management</li>
-                    <li>Hardworking</li>
-                    <li>Organize</li>
-                </ul>
-            </section>
+            <img
+                src="https://media.licdn.com/dms/image/v2/D5603AQEN6_ebU1LQPw/profile-displayphoto-scale_200_200/B56Z7BB2nOKsAg-/0/1781354951187?e=2147483647&v=beta&t=rMBHonqK0GFENgH30vu5UEnPc-6WtRux8is_AXb9G8Q"
+                alt="Profile photo of Daishi R. Nakagawa"
+            >
 
+            <h2>Personal Information</h2>
 
-            <section id="education"> 
-                <h2>Education</h2>
-                <ul>
-                    <li><strong>Elementary:</strong>Harvester's Missions International School</li>
-                    <li><strong>Highschool:</strong>Harvester's Missions International School</li>
-                    <li><strong>College:</strong>Centro Escolar University</li>
-                </ul>
-            </section>
+            <p><strong>Name:</strong> Daishi R. Nakagawa</p>
 
-            <section id="awards">
-                <h3>Awards and Achivements</h3>
-               <ul>
-                    <li>School of Tomorrow Junior Student Convention 100Meter Dash Champion(2018)</li>
-                    <li>School of Tomorrow Junior Student Convention 200Meter Dash Champion(2018)</li>
-                    <li>School of Tomorrow Junior Student Convention BasketBall Men's Champion(2019)</li>
-                </ul>
-            </section>  
-            
-            <section id="Contact"> 
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:nakagawa2434967@mls.ceu.edu.ph">
+                    nakagawa2434967@mls.ceu.edu.ph
+                </a>
+            </p>
+
+            <p>
+                <strong>Contact Number:</strong>
+                <a href="tel:+639935862936">
+                    09935862936
+                </a>
+            </p>
+
+            <p>I am an Information Technology student from CEU Malolos.</p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/meiyy0710" target="_blank" rel="noopener noreferrer">
+                    My GitHub Profile
+                </a>
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <ul>
+                <li>Time Management</li>
+                <li>Hardworking</li>
+                <li>Organization</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <ol>
+                <li>
+                    <strong>Elementary:</strong>
+                    Harvester's Missions International School
+                </li>
+                <li>
+                    <strong>High School:</strong>
+                    Harvester's Missions International School
+                </li>
+                <li>
+                    <strong>College:</strong>
+                    Centro Escolar University
+                </li>
+            </ol>
+        </section>
+
+        <section id="awards">
+            <h2>Awards and Achievements</h2>
+
+            <ol>
+                <li>
+                    School of Tomorrow Junior Student Convention
+                    100-Meter Dash Champion (2018)
+                </li>
+                <li>
+                    School of Tomorrow Junior Student Convention
+                    200-Meter Dash Champion (2018)
+                </li>
+                <li>
+                    School of Tomorrow Junior Student Convention
+                    Basketball Men's Champion (2019)
+                </li>
+            </ol>
+        </section>
+
+        <section id="contact">
             <h2>Contact</h2>
+
             <form>
 
                 <div>
-                <label for="name">Name:</label><br/>
-                <input id="name" type="text" placeholder="Lebreon James" required>
-                </div> <br/>
+                    <label for="name">Name:</label><br>
+                    <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        placeholder="Lebron James"
+                        maxlength="25"
+                        required
+                    >
+                </div>
+
+                <br>
 
                 <div>
-                <label for="emaiL">Email:</label><br/>
-                <input id="email" type="email" placeholder="example@gmail.com" required>
-                </div><br/>
+                    <label for="email">Email:</label><br>
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="example@gmail.com"
+                        maxlength="25"
+                        required
+                    >
+                </div>
+
+                <br>
 
                 <div>
-                <label for="message">Message:</label><br/>
-                <input id="Message" row="3" placeholder="Enter your message here" required>
-                </div><br/>
+                    <label for="message">Message:</label><br>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="3"
+                        maxlength="255"
+                        placeholder="Enter your message here"
+                        required
+                    ></textarea>
+                </div>
+
+                <br>
 
                 <button type="submit">Contact Me</button>
+
             </form>
-            </section>  
-        </main>   
-        <footer>
+        </section>
+
+    </main>
+
+    <footer>
         <nav>
             <a href="#profile">Profile</a>
-            <span></span>
+            <span>|</span>
             <a href="#skills">Skills</a>
-            <span></span>
+            <span>|</span>
             <a href="#education">Education</a>
-            <span></span>
-            <a href="aa">Award and Achivements</a>
-            <span></span>
+            <span>|</span>
+            <a href="#awards">Awards and Achievements</a>
+            <span>|</span>
             <a href="#contact">Contact</a>
-            <span></span>
         </nav>
-        </footer>
+    </footer>
 
-    </body>
-</html> 
+</body>
+</html>
+```
